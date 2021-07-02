@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "All rights reserved"
+
+[[mods]]
+modId = "ridm"
+version = "1.0"
+displayName = "Independence Day Mod"
+#updateJSONURL="http://myurl.me/"
+#displayURL="http://example.com/"
+#logoFile="IndependenceDayMod.png"
+#credits="Thanks for this example mod goes to Java"
+authors = "RedstoneBoy0509"
+description = '''
+A 1.16 kitted, remastered from scratch version of FourthMod
+'''
+
+[[dependencies.ridm]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.ridm]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,1.17)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,135 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "ridm:item/sparkler",
+		"particle": "ridm:item/sparkler"
+	},
+	"elements": [
+		{
+			"name": "MainStick",
+			"from": [6, 0, 6],
+			"to": [9, 11, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 1.5, 5.5], "texture": "#0"},
+				"east": {"uv": [1.5, 0, 3, 5.5], "texture": "#0"},
+				"south": {"uv": [3, 0, 4.5, 5.5], "texture": "#0"},
+				"west": {"uv": [4.5, 0, 6, 5.5], "texture": "#0"},
+				"up": {"uv": [6.5, 7, 5, 5.5], "texture": "#0"},
+				"down": {"uv": [7.5, 0, 6, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "StickTop",
+			"from": [5, 10, 5],
+			"to": [10, 11, 10],
+			"faces": {
+				"north": {"uv": [7.5, 1.5, 10, 2], "texture": "#0"},
+				"east": {"uv": [7.5, 2, 10, 2.5], "texture": "#0"},
+				"south": {"uv": [7.5, 2.5, 10, 3], "texture": "#0"},
+				"west": {"uv": [7.5, 3, 10, 3.5], "texture": "#0"},
+				"up": {"uv": [2.5, 8, 0, 5.5], "texture": "#0"},
+				"down": {"uv": [5, 5.5, 2.5, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "MainFlame",
+			"from": [6, 11, 6],
+			"to": [9, 14, 9],
+			"faces": {
+				"north": {"uv": [6, 1.5, 7.5, 3], "texture": "#0"},
+				"east": {"uv": [6, 3, 7.5, 4.5], "texture": "#0"},
+				"south": {"uv": [6.5, 4.5, 8, 6], "texture": "#0"},
+				"west": {"uv": [6.5, 6, 8, 7.5], "texture": "#0"},
+				"up": {"uv": [6.5, 8.5, 5, 7], "texture": "#0"},
+				"down": {"uv": [9, 0, 7.5, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "FlameTop",
+			"from": [7, 15, 7],
+			"to": [8, 16, 8],
+			"faces": {
+				"north": {"uv": [6, 4.5, 6.5, 5], "texture": "#0"},
+				"east": {"uv": [6, 5, 6.5, 5.5], "texture": "#0"},
+				"south": {"uv": [8, 6, 8.5, 6.5], "texture": "#0"},
+				"west": {"uv": [6.5, 8, 7, 8.5], "texture": "#0"},
+				"up": {"uv": [8.5, 7, 8, 6.5], "texture": "#0"},
+				"down": {"uv": [7.5, 8, 7, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "FlameTAcc1",
+			"from": [6, 14, 7],
+			"to": [9, 15, 8],
+			"faces": {
+				"north": {"uv": [7.5, 3.5, 9, 4], "texture": "#0"},
+				"east": {"uv": [8, 7, 8.5, 7.5], "texture": "#0"},
+				"south": {"uv": [7.5, 4, 9, 4.5], "texture": "#0"},
+				"west": {"uv": [7.5, 8, 8, 8.5], "texture": "#0"},
+				"up": {"uv": [8, 8, 6.5, 7.5], "texture": "#0"},
+				"down": {"uv": [1.5, 8, 0, 8.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "FlameTAcc2",
+			"from": [7, 14, 6],
+			"to": [8, 15, 9],
+			"faces": {
+				"north": {"uv": [8, 7.5, 8.5, 8], "texture": "#0"},
+				"east": {"uv": [1.5, 8, 3, 8.5], "texture": "#0"},
+				"south": {"uv": [8, 8, 8.5, 8.5], "texture": "#0"},
+				"west": {"uv": [3, 8, 4.5, 8.5], "texture": "#0"},
+				"up": {"uv": [5, 9.5, 4.5, 8], "texture": "#0"},
+				"down": {"uv": [8.5, 4.5, 8, 6], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [39.5, 0, 0],
+			"translation": [0, 3.25, 3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [31.5, 0, 0],
+			"translation": [0, 3.25, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-31.5, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-30.5, 0, 0]
+		},
+		"ground": {
+			"rotation": [87, 0, 0]
+		},
+		"gui": {
+			"rotation": [29.5, 0, -29.25]
+		},
+		"head": {
+			"translation": [0, 13.5, 0]
+		},
+		"fixed": {
+			"rotation": [-45.5, 0, 0],
+			"translation": [0, 3.25, -5.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "Item",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "Stick",
+					"origin": [8, 8, 8],
+					"children": [0, 1]
+				},
+				{
+					"name": "Flame",
+					"origin": [8, 8, 8],
+					"children": [2, 3, 4, 5]
+				}
+			]
+		}
+	]
+}
