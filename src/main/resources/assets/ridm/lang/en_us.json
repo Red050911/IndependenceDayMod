@@ -1,10 +1,16 @@
 {
   "item.ridm.sparkler": "Sparkler",
   "item.ridm.red_water_balloon": "Red Water Balloon",
+  "item.ridm.black_water_balloon": "Black Water Balloon",
+  "item.ridm.watermelon": "Watermelon",
+
+  "block.ridm.watermelon": "Watermelon Seeds",
 
   "msg.ridm.tooltip.notshifting": "§r§ePress §r§7SHIFT §r§eto see information§r",
   "msg.ridm.tooltip.sparkler": "§r§7The Sparkler is a classic semi-firework carried around to celebrate Independence Day! Everybody likes some good sparkler fun!§r",
   "msg.ridm.tooltip.redwaterbln": "§r§7A water balloon! A classic way to prank your friends, and great during the summer! This one is colored red.",
+  "msg.ridm.tooltip.blackwaterbln": "§r§7A water balloon! A classic way to prank your friends, and great during the summer! This one is colored black.",
+  "msg.ridm.tooltip.watermelon": "§r§7A watermelon is a classic treat during summer and should be enjoyed here too!",
 
-  "itemGroup.ridm.mod_tab": "Independence Day Mod"
+  "itemGroup.ridm.mod_group": "Independence Day Mod"
 }
